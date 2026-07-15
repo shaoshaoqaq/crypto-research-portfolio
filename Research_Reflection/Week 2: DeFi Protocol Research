@@ -1,1 +1,665 @@
+# Week 2: DeFi Protocol Research
 
+## Overview
+
+During Week 2, I conducted structured research on two representative DeFi protocols:
+
+- Aave (Decentralized Lending)
+- Uniswap V3 (Decentralized Exchange / AMM)
+
+The goal was not only to understand what these protocols do, but to analyze:
+
+- Why these protocols exist
+- What market problems they solve
+- How mechanism design creates user value
+- Whether their growth can be supported by market demand
+
+Through this process, I gradually developed a protocol research framework combining:
+
+**Problem → Mechanism → Users → Data → Market Judgment → Risk Analysis**
+
+---
+
+# 1. Research Projects
+
+## Aave
+
+### Category
+
+DeFi Lending Protocol
+
+
+### Research Question
+
+How does Aave create a permissionless lending market without traditional credit systems?
+
+
+### Key Findings
+
+Aave solves the problem of capital efficiency in crypto assets.
+
+Without Aave, users who need liquidity would usually need to:
+
+- Sell their assets
+- Use centralized exchanges
+- Depend on traditional financial intermediaries
+
+
+Aave introduces:
+
+- Liquidity pools
+- Over-collateralized lending
+- Automated liquidation mechanisms
+
+
+The core insight:
+
+> Aave is not simply a lending product. It is a mechanism that allows users to unlock liquidity from existing crypto assets while maintaining asset exposure.
+
+
+### Research Skills Developed
+
+Through Aave research, I learned how to analyze:
+
+- Lending market structure
+- Collateral mechanisms
+- Interest rate models
+- Liquidation risks
+
+---
+
+# Uniswap V3
+
+### Category
+
+DEX / AMM
+
+
+### Research Question
+
+Why does Uniswap V3's concentrated liquidity mechanism improve AMM capital efficiency?
+
+
+### Key Findings
+
+Traditional AMM models such as Uniswap V2 distribute liquidity across the entire price curve.
+
+This creates a problem:
+
+- Most liquidity is far away from the current trading price
+- Capital is not efficiently utilized
+
+
+Uniswap V3 introduces:
+
+- Concentrated liquidity
+- Tick system
+- Custom price ranges
+
+
+The core insight:
+
+> Uniswap V3 does not simply improve trading efficiency. It changes liquidity provision from passive asset allocation into active market making.
+
+
+### Research Skills Developed
+
+Through Uniswap research, I learned how to analyze:
+
+- Market structure
+- AMM design
+- Liquidity efficiency
+- LP incentives
+- Trade-offs between efficiency and complexity
+
+---
+
+# 2. Evolution of Research Thinking
+
+## Before Research
+
+My initial approach was mainly:
+
+"Understanding what a protocol does."
+
+
+For example:
+
+Aave:
+
+> A decentralized lending platform.
+
+
+Uniswap:
+
+> A decentralized exchange.
+
+
+However, this approach only describes products.
+
+---
+
+## After Research
+
+I started focusing on deeper questions:
+
+### Why does this protocol exist?
+
+What market inefficiency does it solve?
+
+
+### Why do users choose it?
+
+What alternative solutions existed before?
+
+
+### Why can it survive?
+
+What economic conditions support its long-term operation?
+
+
+This changed my research approach from:
+
+Product Introduction
+
+↓
+
+Market Mechanism Analysis
+
+---
+
+# 3. Research Methodology Developed
+
+## Step 1: Identify Market Problem
+
+
+Before analyzing any protocol, I first ask:
+
+
+> If this protocol did not exist, how would users solve this problem?
+
+
+Examples:
+
+
+Aave:
+
+Alternative:
+
+- Centralized lending
+- Selling assets
+
+
+Uniswap:
+
+Alternative:
+
+- Centralized exchanges
+- Order-book trading
+
+
+This helps identify the actual user demand behind the protocol.
+
+---
+
+# Step 2: Analyze Mechanism Design
+
+
+Instead of only describing features, I analyze:
+
+
+Problem
+
+↓
+
+Design Choice
+
+↓
+
+Mechanism
+
+↓
+
+Economic Effect
+
+↓
+
+User Behavior
+
+
+Example:
+
+
+Uniswap V3:
+
+
+Low AMM capital efficiency
+
+↓
+
+Concentrated liquidity
+
+↓
+
+LP selects price ranges
+
+↓
+
+Higher liquidity efficiency
+
+↓
+
+More professional liquidity management
+
+
+---
+
+# Step 3: Analyze Users
+
+
+I learned that protocols should be analyzed from different participants:
+
+
+## Users
+
+Who needs the product?
+
+
+## Liquidity Providers
+
+Why provide capital?
+
+
+## Traders / Borrowers
+
+Why use this protocol?
+
+
+## Other Participants
+
+Examples:
+
+- Liquidators
+- Arbitrageurs
+- Developers
+
+
+A protocol succeeds only when different participants have aligned incentives.
+
+---
+
+# Step 4: Validate With Data
+
+
+A key improvement was learning that:
+
+> Mechanism explanations require empirical validation.
+
+
+For example:
+
+
+Uniswap V3 hypothesis:
+
+"Concentrated liquidity improves capital efficiency."
+
+
+Validation metrics:
+
+- TVL
+- Trading Volume
+- Volume / TVL
+- Fees
+
+
+Aave hypothesis:
+
+"Users actively use the protocol for liquidity needs."
+
+
+Validation metrics:
+
+- TVL
+- Borrow volume
+- Utilization rate
+- Revenue
+
+
+Data should not replace reasoning.
+
+Instead:
+
+Hypothesis
+
+↓
+
+Data
+
+↓
+
+Validation
+
+---
+
+# Step 5: Form Market Judgment
+
+
+The final goal of research is not:
+
+"This protocol is good."
+
+
+Instead:
+
+Evaluate:
+
+
+## User Demand
+
+Does the product solve a real problem?
+
+
+## Product Advantage
+
+Why choose it over alternatives?
+
+
+## Success Conditions
+
+What must remain true?
+
+
+## Risks
+
+What could invalidate the thesis?
+
+
+---
+
+# 4. Key Skills Developed
+
+
+## 1. Protocol Analysis
+
+
+I developed the ability to understand different DeFi primitives:
+
+
+- Lending
+- DEX
+- AMM
+- Liquidity mechanism
+
+
+---
+
+## 2. Mechanism Thinking
+
+
+I learned to connect:
+
+Protocol Design
+
+↓
+
+Economic Incentives
+
+↓
+
+User Behavior
+
+↓
+
+Market Outcome
+
+
+---
+
+## 3. Data Analysis
+
+
+I started using:
+
+- DeFiLlama
+- Protocol dashboards
+- On-chain metrics
+
+
+to verify research assumptions.
+
+
+Future improvement:
+
+- Dune SQL
+- Token Terminal
+- Custom dashboards
+
+
+---
+
+## 4. Source Evaluation
+
+
+I learned to prioritize:
+
+
+Primary Sources:
+
+- Official Documentation
+- Whitepapers
+- GitHub
+- Governance Forum
+
+
+Secondary Sources:
+
+- Research reports
+- Market analysis
+
+
+Protocol research should be based on original design documents whenever possible.
+
+---
+
+# 5. Current Research Ability Assessment
+
+
+## Strengths
+
+
+### 1. Strong Learning Ability
+
+Within two projects, I moved from basic concepts to understanding:
+
+- AMM structure
+- Concentrated liquidity
+- Lending mechanisms
+- Liquidation systems
+
+
+---
+
+### 2. Good Research Structure
+
+
+I can now independently organize research using:
+
+
+Research Question
+
+↓
+
+Problem
+
+↓
+
+Mechanism
+
+↓
+
+Users
+
+↓
+
+Data
+
+↓
+
+Risk
+
+↓
+
+Market Judgment
+
+
+---
+
+### 3. Ability to Think From First Principles
+
+
+Instead of accepting:
+
+"Uniswap is successful."
+
+
+I learned to ask:
+
+
+Why did users need it?
+
+Why did the market adopt it?
+
+What mechanism created the advantage?
+
+
+---
+
+# 6. Current Limitations
+
+
+## 1. On-chain Data Ability
+
+
+Current level:
+
+Able to interpret existing dashboards.
+
+
+Need improvement:
+
+- Writing SQL queries
+- Building dashboards
+- Extracting wallet/user behavior data
+
+
+---
+
+## 2. Economic Modeling
+
+
+Need deeper understanding of:
+
+
+- Token incentives
+- Revenue models
+- Sustainability
+- Game theory
+
+
+---
+
+## 3. Competitive Analysis
+
+
+Need to improve:
+
+
+From:
+
+Single protocol research
+
+
+To:
+
+Market landscape research
+
+
+Examples:
+
+- Aave vs Morpho
+- Uniswap vs Curve
+- Pendle vs other yield protocols
+
+
+---
+
+# 7. Next Stage Development Plan
+
+
+Future research will focus on:
+
+
+## Protocol Depth
+
+Understanding more DeFi primitives:
+
+- Yield
+- Liquid staking
+- Restaking
+- Derivatives
+
+
+## Data Capability
+
+Building:
+
+- Dune dashboards
+- On-chain analysis
+- Protocol metrics frameworks
+
+
+## Market Analysis
+
+Learning to evaluate:
+
+- Competitive advantages
+- Growth opportunities
+- Investment/product opportunities
+
+
+---
+
+# Final Reflection
+
+
+The biggest change during this research process was:
+
+
+> I moved from learning what crypto protocols are, to analyzing why they exist and why the market chooses them.
+
+
+A strong crypto researcher should not only understand technology.
+
+They should connect:
+
+
+User Demand
+
+↓
+
+Protocol Mechanism
+
+↓
+
+Economic Incentives
+
+↓
+
+Data Evidence
+
+↓
+
+Market Judgment
+
+
+This framework will become the foundation for my future protocol research.
