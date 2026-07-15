@@ -75,4 +75,146 @@ Instead of providing liquidity across all prices:
 
 
 V2:
+0 ---------------- infinity
 
+Liquidity distributed everywhere
+
+
+
+V3:
+
+
+2500 --------3500
+
+Liquidity concentrated near active price
+
+
+
+LPs can select:
+
+- lower price tick
+- upper price tick
+
+
+to create a liquidity position.
+
+
+This improves capital efficiency.
+
+:contentReference[oaicite:1]{index=1}
+
+
+---
+
+# 4. Tick System
+
+
+Uniswap V3 divides price space into discrete ticks.
+
+
+Each tick represents a small price interval.
+
+
+LP positions are defined by:
+
+
+lower tick
+
++
+
+upper tick
+
+
+When price crosses ticks:
+
+- liquidity enters
+- liquidity leaves
+
+
+The pool updates active liquidity.
+
+
+:contentReference[oaicite:2]{index=2}
+
+
+
+---
+
+# 5. Trade-off
+
+
+Concentrated liquidity creates higher efficiency.
+
+However:
+
+
+Before V3:
+
+LP:
+
+Deposit assets
+
+↓
+
+Earn fees automatically
+
+
+
+After V3:
+
+
+LP:
+
+Predict price range
+
+↓
+
+Manage position
+
+↓
+
+Adjust liquidity
+
+
+
+Therefore:
+
+V3 transforms LP from passive liquidity provider into active market maker.
+
+
+---
+
+# 6. User Flow
+
+
+Trader:
+
+
+Token A
+
+↓
+
+Uniswap Pool
+
+↓
+
+Token B
+
+
+
+LP:
+
+
+Token Deposit
+
+↓
+
+Choose Price Range
+
+↓
+
+Provide Liquidity
+
+↓
+
+Earn Trading Fees
